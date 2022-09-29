@@ -85,5 +85,6 @@
     "transform": {
       "^.+\\.vue$": "vue-jest"
     }
-  }
+  },
+  "packageManager": "yarn@3.2.3"
 }
