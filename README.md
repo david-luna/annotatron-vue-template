@@ -9,12 +9,19 @@ Tempalte project created with Vue CLI and electron plugin for vue cli with the f
 - Vue router for navigation
 - Vuex for state management
 
-The project contains a sample `Backendmodule` with an `echo`service and a preload script
+The project contains a sample `BackendModule` with an `echo` service and a preload script
 to connect main and rederer processes.
+
+## Requirements
+
+To properly work with this project you need:
+
+- node v16+
+- yarn berry
 
 ## Project setup
 
-To have a clean setup of the project rin the following commands
+To have a clean setup of the project run the following commands
 
 ```sh
 name=my-project &&
