@@ -3477,12 +3477,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"annotatron@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "annotatron@npm:0.0.11"
+"annotatron@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "annotatron@npm:0.1.0"
   dependencies:
+    injection-js: ^2.4.0
     reflect-metadata: ^0.1.13
-  checksum: ee6d935da60a8118100f4508de1023169513f77a6ceca82c6af2f458600109ccaee5f9735cc3694409cf29d288c7984126e1e83c68ba9d17a125525ddd312308
+  checksum: 8d263d8ff428b3240b4cba3557fd499692ab04ef2c25008108cbabe1eb7aa5c2d2dfe39e4893870d2bde7e5c5064cb1735da330f1783b8c23bfb2b202dd7e646
   languageName: node
   linkType: hard
 
@@ -3658,7 +3659,7 @@ __metadata:
     "@vue/eslint-config-prettier": ^6.0.0
     "@vue/eslint-config-typescript": ^7.0.0
     "@vue/test-utils": ^2.0.0-0
-    annotatron: ^0.0.11
+    annotatron: ^0.1.0
     core-js: ^3.6.5
     electron: ^13.0.0
     electron-devtools-installer: ^3.1.0
@@ -4910,9 +4911,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001312, caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001414
-  resolution: "caniuse-lite@npm:1.0.30001414"
-  checksum: 97210cfd15ded093b20c33d35bef9711a88402c3345411dad420c991a41a3e38ad17fd66721e8334c86e9b2e4aa2c1851d3631f1441afb73b92d93b2b8ca890d
+  version: 1.0.30001481
+  resolution: "caniuse-lite@npm:1.0.30001481"
+  checksum: 8200a043c191b4fd4fe0beda37a58fd61869c895ab93f87bdd0420e5927453f48434d716ce9da8552ff6c3ecc4dcd1366354cda3a134f3cc844af741574a7cab
   languageName: node
   linkType: hard
 
@@ -9043,6 +9044,15 @@ __metadata:
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
   checksum: dfd98b0ca3a4fc1e323e38a6c8eb8936e31a97a918d3b377649ea15bdb15d481207a0dda1021efbd86b464cae29a0d33c1d7dcaf6c5672bee17fa849bc50a1b3
+  languageName: node
+  linkType: hard
+
+"injection-js@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "injection-js@npm:2.4.0"
+  dependencies:
+    tslib: ^2.0.0
+  checksum: e8f297a928da1ae26b3d9eaad57f738487e0c4c2f78f8f0f868b239e190940b782cc8dd78b9ba59a64a4fa585d4dae204e7c179ca5f9a09c0acf80189d090f50
   languageName: node
   linkType: hard
 
@@ -15403,6 +15413,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:^2.0.0":
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0"
+  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^2.1.0":
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
@@ -15553,7 +15570,7 @@ __metadata:
 
 "typescript@patch:typescript@~4.1.5#~builtin<compat/typescript>":
   version: 4.1.6
-  resolution: "typescript@patch:typescript@npm%3A4.1.6#~builtin<compat/typescript>::version=4.1.6&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.1.6#~builtin<compat/typescript>::version=4.1.6&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
